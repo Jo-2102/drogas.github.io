@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Consecuencias de Consumir Drogas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aacc 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        .main img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .subpage {
+            display: none;
+        }
+    </style>
+    <script>
+        function showPage(pageId) {
+            var pages = document.getElementsByClassName('subpage');
+            for (var i = 0; i < pages.length; i++) {
+                pages[i].style.display = 'none';
+            }
+            document.getElementById(pageId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Las Consecuencias de Consumir Drogas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')">Inicio</a></li>
+                    <li><a href="#" onclick="showPage('fisicas')">Consecuencias Físicas</a></li>
+                    <li><a href="#" onclick="showPage('mentales')">Consecuencias Mentales</a></li>
+                    <li><a href="#" onclick="showPage('sociales')">Consecuencias Sociales</a></li>
+                    <li><a href="#" onclick="showPage('prevencion')">Prevención y Tratamiento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <div id="home" class="subpage">
+            <section>
+                <h2>Introducción</h2>
+                <p>El consumo de drogas es un problema grave que afecta a personas de todas las edades, géneros y clases sociales. Las consecuencias de consumir drogas son múltiples y afectan tanto a la salud física como mental, además de tener repercusiones sociales y legales.</p>
+                <img src="https://i0.wp.com/salud.ideal.es/wp-content/uploads/2010/02/estupefacientes.jpg">
+            </section>
+        </div>
+
+        <div id="fisicas" class="subpage">
+            <section>
+                <h2>Consecuencias Físicas</h2>
+                <p>El uso de drogas puede causar una variedad de problemas de salud física, incluyendo:</p>
+                <ul>
+                    <li>Daño cerebral</li>
+                    <li>Enfermedades cardiovasculares</li>
+                    <li>Problemas respiratorios</li>
+                    <li>Daño hepático y renal</li>
+                    <li>Compromiso del sistema inmunológico</li>
+                </ul>
+                <img src="https://static.tuasaude.com/media/article/rv/wr/efectos-de-las-drogas_15867_l.jpg">
+                <p>Para más información, puedes ver los siguientes videos:</p>
+                <ul>
+                    <li><a href="https://youtu.be/9mdQhyD7dLs?si=YMXcSdEMK-P7k_QT" target="_blank">Consecuencias a corto y largo plazo del uso de drogas</a></li>
+                    <li><a href="https://youtu.be/HgYFJhkQmVA?si=f-GxQWBLEVbGtkRW" target="_blank">Efectos del consumo de sustancias</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="mentales" class="subpage">
+            <section>
+                <h2>Consecuencias Mentales</h2>
+                <p>El consumo de drogas también tiene efectos negativos en la salud mental, tales como:</p>
+                <ul>
+                    <li>Depresión y ansiedad</li>
+                    <li>Trastornos de la personalidad</li>
+                    <li>Psicosis</li>
+                    <li>Trastornos de sueño</li>
+                    <li>Problemas de memoria y concentración</li>
+                </ul>
+                <img src="https://lamenteesmaravillosa.com/wp-content/uploads/2016/05/Chica-adolescente-cubriendose-la-cara-con-las-manos.jpg">
+                <p>Para más información, puedes ver los siguientes videos:</p>
+                <ul>
+                    <li><a href="https://youtu.be/StIyeHmS8ts?si=Pm_2JQdJ442unWi6" target="_blank">Video sobre depresión y ansiedad</a></li>
+                    <li><a href="https://youtu.be/lVZI8YWsXlU?si=XIldz5wPUXayT6VG" target="_blank">¿Sabes que la salud mental está relacionada con las adicciones?</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="sociales" class="subpage">
+            <section>
+                <h2>Consecuencias Sociales</h2>
+                <p>El abuso de drogas no solo afecta al individuo, sino también a su entorno social. Algunas de las consecuencias sociales incluyen:</p>
+                <ul>
+                    <li>Deterioro de las relaciones familiares y de pareja</li>
+                    <li>Pérdida de empleo y problemas financieros</li>
+                    <li>Aislamiento social</li>
+                    <li>Conductas delictivas</li>
+                    <li>Problemas legales</li>
+                </ul>
+                <img src="https://psiquiatriapsicologia-dexeus.com/IMAGES_12/noticia-2380-esta-es-la-verdadera-causa-cientifica-de-la-adiccion-a-las-drogas.png">
+                <p>Para más información, puedes ver los siguientes videos:</p>
+                <ul>
+                    <li><a href="https://youtu.be/Fy0DJn-nd6Q?si=wp7-2WLAZfV-LPrd" target="_blank">Consecuencias sociales del consumo de drogas.</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="prevencion" class="subpage">
+            <section>
+                <h2>Prevención y Tratamiento</h2>
+                <p>La prevención es clave para evitar el inicio del consumo de drogas. Es importante educar a la población sobre los riesgos y promover estilos de vida saludables. Para quienes ya están afectados, existen diversos tratamientos que pueden ayudar, como:</p>
+                <ul>
+                    <li>Terapia psicológica</li>
+                    <li>Programas de desintoxicación</li>
+                    <li>Grupos de apoyo</li>
+                    <li>Medicación</li>
+                    <li>Rehabilitación en centros especializados</li>
+                </ul>
+                <img src="https://zerty.cl/wp-content/uploads/2022/09/Articulo-drogas-web-3.png">
+                <p>Para más información, puedes ver los siguientes videos:</p>
+                <ul>
+                    <li><a href="https://youtu.be/Fhq6XS5tSSo?si=cYnSCwSlbAUOIqmo" target="_blank">El trabajo de enfermería en la prevención y tratamiento de las drogas⁠</a></li>
+                    <li><a href="https://youtu.be/1veAKvHtvK8?si=ttYcr50fly3-XETZ" target="_blank">Tratamiento de las adicciones en psicología y psicoterapia</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Las Consecuencias de Consumir Drogas. Jonathan Castanon.</p>
+    </footer>
+
+    <script>
+        // Mostrar la página de inicio por defecto
+        showPage('home');
+    </script>
+</body>
+</html>
